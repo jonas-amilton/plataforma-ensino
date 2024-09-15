@@ -14,4 +14,39 @@
             </div>
         </div>
     </div>
+    {{-- Materias do aluno --}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <!-- Card 1 -->
+        <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <div class="p-6">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Card 1</h3>
+                <p class="mt-4 text-gray-600 dark:text-gray-300">
+                    Este é o conteúdo do primeiro card. Você pode adicionar textos ou elementos.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <div class="p-6">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Card 2</h3>
+                <p class="mt-4 text-gray-600 dark:text-gray-300">
+                    Este é o conteúdo do segundo card.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <div class="p-6">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Card 3</h3>
+                <p class="mt-4 text-gray-600 dark:text-gray-300">
+                    Este é o conteúdo do terceiro card.
+                </p>
+            </div>
+        </div>
+
+        <!-- Adicionar mais cards conforme necessário -->
+    </div>
+
 </x-app-layout>
