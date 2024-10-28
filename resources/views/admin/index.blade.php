@@ -11,43 +11,43 @@
                 'title' => 'Adicionar Disciplina',
                 'content' => 'Você pode adicionar adicionar uma nova disciplina aqui.',
                 'image' => 'images/adicionar-disciplina.jpg',
-                'href' => '',
+                'href' => route('school-subject.create'),
             ])
 
             @include('admin.partials.card-adm-panel', [
                 'title' => 'Gerenciar Disciplinas',
                 'content' => 'Você pode editar ou remover as disciplinas aqui.',
                 'image' => 'images/gerenciar-disciplinas.jpg',
-                'href' => '',
+                'href' => route('school-subject.manage'),
             ])
 
-            @include('admin.partials.card-adm-panel', [
+            {{-- @include('admin.partials.card-adm-panel', [
                 'title' => 'Adicionar Professor',
                 'content' => 'Você pode adicionar um novo professor aqui.',
                 'image' => 'images/adicionar-professor.jpg',
-                'href' => '',
+                'href' => route('rota-aqui'),
             ])
 
             @include('admin.partials.card-adm-panel', [
                 'title' => 'Gerenciar Professores',
                 'content' => 'Você pode editar ou remover os professores aqui.',
                 'image' => 'images/gerenciar-professores.jpg',
-                'href' => '',
+                'href' => route('rota-aqui'),
             ])
 
             @include('admin.partials.card-adm-panel', [
                 'title' => 'Gerenciar Matriculas',
                 'content' => 'Você pode gerenciar as matriculas aqui.',
                 'image' => 'images/gerenciar-matriculas.jpg',
-                'href' => '',
+                'href' => route('rota-aqui'),
             ])
 
             @include('admin.partials.card-adm-panel', [
                 'title' => 'Gerenciar Notas',
                 'content' => 'Você pode gerenciar as notas aqui.',
                 'image' => 'images/gerenciar-notas.jpg',
-                'href' => '',
-            ])
+                'href' => route('rota-aqui'),
+            ]) --}}
         </div>
 
     </x-app-layout>
